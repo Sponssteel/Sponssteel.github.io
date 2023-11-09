@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Pixelify+Sans&family=Rubik+Pixels&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Rubik+Pixels&display=swap');
+body{
+    background-color: #76428A;
+    color: #F6F236;
+    font-family: 'Comic Neue', sans-serif;
+    text-align: center;
+    font-size: larger;
+    text-shadow: 2px 2px 5px black;
+}
+h1{
+    color: #F6F236;
+    font-family: 'Rubik Pixels', sans-serif;
+    text-shadow: 2px 2px 5px black;
+}
+hr{
+    color: #F6F236;
+}
+button{
+    font-family: 'Comic Neue', sans-serif;
+    color: #F6F236;
+    background-color: blueviolet;
+    height: 10%;
+    width: 15%;
+    padding: 14px 28px;
+    border: 40px;
+    border-radius: 100px;
+    border: 5px solid purple;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:hover {
+    cursor: pointer;
+    background-color: #F6F236;
+    color: blueviolet;
+    border: 5px solid orange;
+}
+button:active {
+    background-color: orange;
+    color: blueviolet;
+    border: 5px solid #F6F236;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }      
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }     
+  .fa:hover {
+    opacity: 0.7;
+  }
